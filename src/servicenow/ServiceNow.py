@@ -139,3 +139,7 @@ class VPN(Base):
 
 class ConfigurationItem(Base):
     __table__ = 'cmdb_ci.do'
+
+    
+class EventMgt(Base):
+    __table__ = 'em_event.do'
